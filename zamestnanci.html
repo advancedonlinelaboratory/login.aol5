@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tomáš Butora - AOL4EMPLOYEES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="menu-toggle" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <div class="overlay"></div>
+        <nav>
+            <h1 class="brand">TB</h1>
+            <ul>
+                <li><a href="#ulohy">Úlohy</a></li>
+                <li><a href="#spravy">Správy</a></li>
+                <li><a href="#timeline">Timeline</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="ulohy" class="section">
+            <div class="header">
+                <h2>Úlohy</h2>
+                <div class="header-icons">
+                    <div class="notifications">
+                        <i class="fas fa-bell notification-icon" title="Notifikácie"></i>
+                        <div class="notification-menu">
+                            <div class="notification">
+                                <i class="fas fa-user-circle"></i> Peter Novák
+                                <p>Vaša úloha bola aktualizovaná.</p>
+                            </div>
+                            <div class="notification">
+                                <i class="fas fa-user-circle"></i> Peter Novák
+                                <p>Nová úloha bola pridaná do vašej schránky.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="cards">
+                <div class="card">
+                    <i class="fas fa-list"></i>
+                    <h3>Celkový počet úloh</h3>
+                    <p>10</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-check"></i>
+                    <h3>Splnené úlohy</h3>
+                    <p>5</p>
+                </div>
+                <div class="card">
+                    <i class="fas fa-times"></i>
+                    <h3>Nesplnené úlohy</h3>
+                    <p>5</p>
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Názov Úlohy</th>
+                        <th>Popis</th>
+                        <th>Stav</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Príklad úlohy</td>
+                        <td>Popis príkladu úlohy</td>
+                        <td>Nesplnené</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Kontrola faktúr</td>
+                        <td>Preverenie všetkých faktúr za posledný mesiac</td>
+                        <td>Splnené</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Aktualizácia webu</td>
+                        <td>Implementácia nových funkcií na webovej stránke</td>
+                        <td>Nesplnené</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Príprava reportu</td>
+                        <td>Vypracovanie mesačného reportu</td>
+                        <td>Splnené</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Údržba servera</td>
+                        <td>Kontrola a optimalizácia serverov</td>
+                        <td>Nesplnené</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="spravy" class="section">
+            <h2>Správy</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Od</th>
+                        <th>Správa</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Peter Novák</td>
+                        <td>Vaša úloha bola aktualizovaná.</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Peter Novák</td>
+                        <td>Nová úloha bola pridaná do vašej schránky.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="timeline" class="section">
+            <h2>Timeline</h2>
+            <div class="timeline">
+                <div class="timeline-event">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Príklad úlohy</h3>
+                        <p>Popis príkladu úlohy.</p>
+                        <span>Dátum: 2023-07-26</span>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Kontrola faktúr</h3>
+                        <p>Preverenie všetkých faktúr za posledný mesiac.</p>
+                        <span>Dátum: 2023-07-27</span>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Aktualizácia webu</h3>
+                        <p>Implementácia nových funkcií na webovej stránke.</p>
+                        <span>Dátum: 2023-07-28</span>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Príprava reportu</h3>
+                        <p>Vypracovanie mesačného reportu.</p>
+                        <span>Dátum: 2023-07-29</span>
+                    </div>
+                </div>
+                <div class="timeline-event">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Údržba servera</h3>
+                        <p>Kontrola a optimalizácia serverov.</p>
+                        <span>Dátum: 2023-07-30</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stopky" class="section">
+            <h2>Stopky</h2>
+            <div class="stopky">
+                <p id="cas">00:00:00</p>
+                <button id="stop">Stop</button>
+                <button id="kopirovat">Kopírovať čas</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
